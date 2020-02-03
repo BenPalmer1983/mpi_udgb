@@ -68,6 +68,7 @@ ALLOCATE(tarray(n)%n_arr_2d(1:10, 1:3))
 CALL fill_2d_int(tarray(n)%n_arr_2d)
 ALLOCATE(tarray(n)%n_arr_1d(1:3))
 CALL fill_1d_int(tarray(n)%n_arr_1d)
+! tarray(n)%unallocated
 ALLOCATE(tarray(n)%center_b(1:10))
 CALL fill_1d_dp(tarray(n)%center_b)
 ALLOCATE(tarray(n)%center_c(1:5))

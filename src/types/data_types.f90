@@ -10,9 +10,12 @@ REAL(kind=DoubleReal), ALLOCATABLE :: stress(:, :)
 REAL(kind=DoubleReal), ALLOCATABLE :: center_a(:)
 INTEGER(KIND=StandardInteger), ALLOCATABLE :: n_arr_2d(:, :)
 INTEGER(KIND=StandardInteger), ALLOCATABLE :: n_arr_1d(:)
+INTEGER(KIND=StandardInteger), ALLOCATABLE :: unallocated(:, :)
 REAL(kind=DoubleReal), ALLOCATABLE :: center_b(:)
 REAL(kind=DoubleReal), ALLOCATABLE :: center_c(:)
 REAL(kind=DoubleReal), ALLOCATABLE :: center_d(:,:)
+REAL(kind=DoubleReal), ALLOCATABLE :: unallocated_2(:)
+REAL(kind=DoubleReal), ALLOCATABLE :: unallocated_3(:,:)
 INTEGER(KIND=StandardInteger), ALLOCATABLE :: n_arr(:)
 END TYPE t_data1
 

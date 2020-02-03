@@ -16,9 +16,12 @@ CALL pup(v(n)%stress)
 CALL pup(v(n)%center_a)
 CALL pup(v(n)%n_arr_2d)
 CALL pup(v(n)%n_arr_1d)
+CALL pup(v(n)%unallocated)
 CALL pup(v(n)%center_b)
 CALL pup(v(n)%center_c)
 CALL pup(v(n)%center_d)
+CALL pup(v(n)%unallocated_2)
+CALL pup(v(n)%unallocated_3)
 CALL pup(v(n)%n_arr)
 !############################################################################################
 INCLUDE "mpi_udgb._section_b.f90"
