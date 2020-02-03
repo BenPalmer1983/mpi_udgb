@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mpirun -n 4 bin/test.x
+mpirun -n 1 bin/test.x

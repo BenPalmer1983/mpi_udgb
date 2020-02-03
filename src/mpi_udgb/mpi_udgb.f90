@@ -106,6 +106,7 @@ INCLUDE "mpi_udgb.pup_logical.f90"
 
 ! TYPE SPECIFIC
 INCLUDE "types/mpi_udgb.t_data1.f90"
+INCLUDE "types/mpi_udgb.t_potential.f90"
 
 !INCLUDE "mpi_udgb.t_config.f90"
 !INCLUDE "mpi_udgb.t_cghosts.f90"

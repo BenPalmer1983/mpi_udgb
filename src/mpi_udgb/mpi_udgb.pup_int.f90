@@ -109,7 +109,7 @@ IF(method .EQ. 1)THEN
     npos(1) = npos(1) + 2
     ! SAVE VALUES
     DO row=1,SIZE(var_in, 1)
-      bint(npos(2):npos(2) + SIZE(var_in, 1) - 1) = var_in(row, :)
+      bint(npos(2):npos(2) + SIZE(var_in, 2) - 1) = var_in(row, :)
       npos(2) = npos(2) + SIZE(var_in, 2)
     END DO
   ELSE IF (loop .EQ. 3 .AND. proc_id .NE. 0) THEN  

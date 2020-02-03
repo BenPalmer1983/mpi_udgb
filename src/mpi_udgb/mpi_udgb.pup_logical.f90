@@ -104,7 +104,7 @@ IF(method .EQ. 1)THEN
     npos(1) = npos(1) + 2
     ! SAVE VALUES
     DO row=1,SIZE(var_in, 1)
-      blogical(npos(4):npos(4) + SIZE(var_in, 1) - 1) = var_in(row, :)
+      blogical(npos(4):npos(4) + SIZE(var_in, 2) - 1) = var_in(row, :)
       npos(4) = npos(4) + SIZE(var_in, 2)
     END DO
   ELSE IF (loop .EQ. 3 .AND. proc_id .NE. 0) THEN  
